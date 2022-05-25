@@ -1,0 +1,42 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load static %}
+
+
+
+
+
+
+
+
+
+
+<div class="container bg-light mt-3 rounded">
+    
+    <div class="row justify-content-center">
+        <h2 class="fw-bold mt-3 text-center">Cursos Disponibles</h2>
+    </div>
+    <div class ="row">
+        {% for i in cursos %}
+        <div class="col sm-4">
+            
+                <div class="card mt-4" style="width:450px">
+                    {% if i.imagen %}
+                        <img src="{{ i.imagen.url }}" alt="imagen curso" class="card-img-top" style="width:450px;">
+                    {% endif %}
+                    <div class="card-body">
+                        <h4 class="card-title">{{i.titulo}}</h4>
+                        <h5 class="card-subtitle mb-2 text-muted">{{i.subtitulo}}</h5>
+                        <a href= "{% url "detalle_curso" i.pk %}" class="btn btn-primary">Ir al curso</a>
+                    </div>
+                </div>            
+        </div>
+        <br>
+        {% endfor %}
+    <br>
+
+
+</div>
+
+{% endblock content %}

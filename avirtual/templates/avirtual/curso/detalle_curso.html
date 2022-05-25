@@ -1,0 +1,34 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container bg-light d-flex flex-column flex-md-row">
+    <nav class="navbar navbar-expand-md navbar-light d-flex flex-md-column">
+
+        <!-- <div class="collapse navbar-collapse w-100" id="navbarSupportedContent"> -->
+          <ul class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end">
+            <li>
+              <a class="nav-link active fw-bold" aria-current="page" href="#">{{curso.titulo}}</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Capitulos</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Lecciones</a>
+            </li>
+          </ul>            
+        <!-- </div> -->
+    </nav>
+    <main class="ps-0 ps-md-5 flex-grow-1">
+        <h1 class= "text-center fw-bold mt-3">{{curso.titulo}}</h1>
+<!-- 
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{ curso.video.url}}" allowfullscreen></iframe>
+          </div>
+-->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices auctor ornare. Etiam iaculis non est non dictum. Suspendisse lobortis, lectus tristique mollis bibendum, eros urna viverra nulla, quis ornare nulla sapien faucibus risus. Fusce in egestas orci. Donec vel nunc sed libero rhoncus ullamcorper tempor non orci. Nulla id risus id enim aliquet tempor. Mauris lacus nibh, efficitur sed malesuada quis, suscipit ac risus. Morbi imperdiet lacinia nisl, quis sollicitudin tortor blandit non. Praesent accumsan purus risus, rhoncus eleifend erat rhoncus sit amet. Maecenas id molestie erat.</p>
+      </main>
+
+
+{% endblock content %}

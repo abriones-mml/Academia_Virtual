@@ -1,0 +1,45 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container w-75 mt-1 shadow">
+    <div class="row">
+      <div class="bg-light text-dark">
+        <h2 class="fw-bold text-center mt-3">Datos de Cursos</h2>
+        <div class="table-responsive align-middle">
+          <table id="estadistica" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Título</th>
+                <th scope="col">Fecha Publicación</th>
+                <th scope="col">Activo</th>
+                <th scope="col">Opciones</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              {% for i in cursos %}
+              <tr>
+                <td>{{i.titulo}}</td>
+                <td>{{i.publicado}}</td>
+                <td>{{i.activo}}</td>
+                <td>
+                    {% if perms.avirtual.change_curso %}
+                    <a href="{% url "editar_curso" i.id %}" class="btn btn-primary btn-sm">Editar</a>
+                    {% endif %}
+                    
+                    {% if perms.avirtual.delete_curso %}
+                    <a href="{% url "eliminar_curso" i.id %}" class="btn btn-danger btn-sm">Eliminar</a>
+                    {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+
+{% endblock content %}

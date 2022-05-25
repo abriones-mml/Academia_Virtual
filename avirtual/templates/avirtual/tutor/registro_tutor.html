@@ -1,0 +1,23 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load crispy_forms_tags %}
+<div ="row">
+    <div class="col-12 col-md-4 offset-md-4">  
+        <div class="card">
+            <div class="card-body rounded p-5">
+                <h2 class="fw-bold mt-3 text-center">Registro de Tutor</h2>
+                <form action = "" method = "POST">
+                    {% csrf_token %}
+                    {{ form | crispy}}
+                    <div class="d-flex justify-content-center">
+                        <input class="btn btn-primary mt-3 mb-3" type = "submit" value="Registrar">
+                    </div>
+                </form>
+                {{mensaje}}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
