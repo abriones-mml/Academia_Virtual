@@ -1,0 +1,1270 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-05-24T07:45:07.056Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Emiliano Valencia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-05-24T07:45:31.620Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Maikel Lopez",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-05-24T07:45:55.486Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "3",
+            "object_repr": "Marcia Ana",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-05-24T07:48:13.971Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Curso 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-05-24T08:44:56.223Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Curso 2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-05-24T19:58:13.527Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-05-24T19:58:13.694Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-05-24T19:58:13.831Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-05-24T19:58:13.970Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-05-24T19:58:14.123Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "7",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-05-24T19:58:14.244Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "6",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-05-24T19:58:14.387Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "5",
+            "object_repr": "Susana Oria",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-05-24T20:56:17.198Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "POtencia",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-05-24T20:56:17.358Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Circuitos Electronicos",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-05-24T22:28:18.479Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Introduccion al Curso 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-05-24T22:28:23.418Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Introduccion al Curso 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-05-24T22:28:46.687Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Introduccion al Curso 1",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-05-24T22:29:25.230Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Desarrollo Curso 2",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-05-24T22:29:46.200Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Conclusion Curso 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-05-24T22:29:54.901Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Conclusion Curso 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Numero capitulo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-05-24T22:30:47.925Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Conclusion Curso 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Contenido\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-05-24T22:31:11.657Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Primeros Pasos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-05-24T22:31:44.766Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "2",
+            "object_repr": "Leccion 1 Curso 1",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-05-24T22:32:01.259Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Primeros Pasos Curso 1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Titulo\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-05-24T22:32:21.311Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "3",
+            "object_repr": "Momento esto es un robot",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-05-24T22:32:47.395Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "4",
+            "object_repr": "Adios",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-05-25T06:07:33.258Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Haciendo Gargaras con Acido",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Video\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-05-25T07:40:36.442Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "alberto",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-05-25T07:41:08.132Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "1",
+            "object_repr": "alberto",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-05-25T07:42:31.614Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ayudante1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"First name\", \"Last name\", \"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-05-25T07:43:19.165Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "editores_tutor",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-05-25T07:43:57.314Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "editores1_cursos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-05-25T07:44:22.762Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "editores2_cursos",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-05-25T08:59:48.436Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "ayudante1",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-05-25T09:00:02.846Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "ayudante2",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-05-25T09:00:13.944Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "ayudante3",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-05-25T09:01:01.354Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "editores2_cursos",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-05-25T09:01:07.919Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "editores1_cursos",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-05-25T09:01:57.422Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "editores_tutor",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-05-25T09:13:18.885Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "sadasd",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add capitulo",
+            "content_type": 7,
+            "codename": "add_capitulo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change capitulo",
+            "content_type": 7,
+            "codename": "change_capitulo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete capitulo",
+            "content_type": 7,
+            "codename": "delete_capitulo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view capitulo",
+            "content_type": 7,
+            "codename": "view_capitulo"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add curso",
+            "content_type": 8,
+            "codename": "add_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change curso",
+            "content_type": 8,
+            "codename": "change_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete curso",
+            "content_type": 8,
+            "codename": "delete_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view curso",
+            "content_type": 8,
+            "codename": "view_curso"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add tutor",
+            "content_type": 9,
+            "codename": "add_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change tutor",
+            "content_type": 9,
+            "codename": "change_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete tutor",
+            "content_type": 9,
+            "codename": "delete_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view tutor",
+            "content_type": 9,
+            "codename": "view_tutor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add leccion",
+            "content_type": 10,
+            "codename": "add_leccion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change leccion",
+            "content_type": 10,
+            "codename": "change_leccion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete leccion",
+            "content_type": 10,
+            "codename": "delete_leccion"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view leccion",
+            "content_type": 10,
+            "codename": "view_leccion"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "editores_tutor",
+            "permissions": [
+                33,
+                34,
+                35,
+                36
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "editores1_cursos",
+            "permissions": [
+                29,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+            "name": "editores2_cursos",
+            "permissions": [
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$W6Fvl0WY0HucvG9yEPUm4f$tJvqTcYAAut03t8AlmujlbseIVKloUR7Bcswt2i5tVI=",
+            "last_login": "2022-05-25T09:12:56.779Z",
+            "is_superuser": true,
+            "username": "alberto",
+            "first_name": "",
+            "last_name": "",
+            "email": "alberto@mail.mml",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-05-24T07:40:32Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$8lWwkSoPluvgS4DYrcEOEx$qFTUXuUA8Y35FJBgXOhxEtq8l8jp+wkRoZIeKa6DfH0=",
+            "last_login": "2022-05-25T07:03:48.381Z",
+            "is_superuser": false,
+            "username": "ivanzamorano",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T06:47:43.584Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$ok8fOkg2bGAbFKsmylfrjl$u/JEMYKfi+2yrJ4v+TxdSiu87kl8ALBOf0yO2YvuSsQ=",
+            "last_login": "2022-05-25T09:04:49.240Z",
+            "is_superuser": false,
+            "username": "ayudante1",
+            "first_name": "Ayudante",
+            "last_name": "Uno",
+            "email": "ayudante1@mail.ay",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T07:12:06Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$r2jUIp3uGJAIrLYTY4rQrK$drJj04s+kNLXLYDSVIReGnnSmIBnf9Rfr7Kx+Qrnqt8=",
+            "last_login": "2022-05-25T09:08:54.798Z",
+            "is_superuser": false,
+            "username": "ayudante2",
+            "first_name": "Ayudante",
+            "last_name": "Dos",
+            "email": "ayudante2@mail.uy",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T07:47:11Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$AxrzgrC17BejFHaFwqs2rV$GaNO10I0De0/k+/nUeZQ1EfW0FlaRa6i2dCjsLFcmG8=",
+            "last_login": "2022-05-25T07:48:09Z",
+            "is_superuser": false,
+            "username": "ayudante3",
+            "first_name": "Ayudante",
+            "last_name": "Tres",
+            "email": "ayudante3@mail.ay",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T07:48:08Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "avirtual",
+            "model": "capitulo"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "avirtual",
+            "model": "curso"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "avirtual",
+            "model": "tutor"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "avirtual",
+            "model": "leccion"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ij8h5zy7ejmbmqfo4kq6stwus2w23zgf",
+        "fields": {
+            "session_data": ".eJxVjMEOgjAQRP-lZ9PQsrRdj975BrLLthY1JaFwMv67kHDQ22Tem3mrgbY1D1uNyzCJuiqjLr8d0_iM5QDyoHKf9TiXdZlYH4o-adX9LPF1O92_g0w172vGRjxCAIwUE_jAJC2ydMk6cIBdkzrP1gh4FEh2jxbQB2iNc25k9fkC3NI3Mg:1ntn4a:W6lxUvFgfggLBsF1uTKvOjI2dC4ClO2KXABOPw3Q3JY",
+            "expire_date": "2022-06-08T09:12:56.875Z"
+        }
+    },
+    {
+        "model": "avirtual.tutor",
+        "pk": 1,
+        "fields": {
+            "nombre": "Emiliano",
+            "apellido": "Valencia"
+        }
+    },
+    {
+        "model": "avirtual.tutor",
+        "pk": 2,
+        "fields": {
+            "nombre": "Maikel",
+            "apellido": "Lopez"
+        }
+    },
+    {
+        "model": "avirtual.tutor",
+        "pk": 3,
+        "fields": {
+            "nombre": "Marcia",
+            "apellido": "Ana"
+        }
+    },
+    {
+        "model": "avirtual.tutor",
+        "pk": 4,
+        "fields": {
+            "nombre": "Juan",
+            "apellido": "Burro"
+        }
+    },
+    {
+        "model": "avirtual.curso",
+        "pk": 1,
+        "fields": {
+            "titulo": "Introduccion a los Circuitos Electr�nicos 1",
+            "subtitulo": "De la Teor�a a la Pr�ctica",
+            "imagen": "cursos/pexels-cottonbro-4709365.jpg",
+            "video": "cursos/001.avi",
+            "slug": "curso1",
+            "publicado": "2022-05-24T07:47:18Z",
+            "activo": true,
+            "autores": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "avirtual.curso",
+        "pk": 2,
+        "fields": {
+            "titulo": "Introducci�n a los Circuitos Electr�nicos 2",
+            "subtitulo": "Subtitulo Curso 2",
+            "imagen": "cursos/pexels-pok-rie-1432677.jpg",
+            "video": "cursos/001_OEgYMv9.avi",
+            "slug": "curso2",
+            "publicado": "2022-05-24T08:44:22Z",
+            "activo": true,
+            "autores": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "avirtual.curso",
+        "pk": 7,
+        "fields": {
+            "titulo": "Redes El�ctricas 1",
+            "subtitulo": "jiji",
+            "imagen": "cursos/pexels-cottonbro-4709366.jpg",
+            "video": "",
+            "slug": "redes1",
+            "publicado": "2022-05-25T09:05:23Z",
+            "activo": true,
+            "autores": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "avirtual.capitulo",
+        "pk": 1,
+        "fields": {
+            "curso": 1,
+            "numero_capitulo": 1,
+            "titulo": "Introduccion al Curso 1",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem."
+        }
+    },
+    {
+        "model": "avirtual.capitulo",
+        "pk": 3,
+        "fields": {
+            "curso": 1,
+            "numero_capitulo": 2,
+            "titulo": "Desarrollo Curso 2",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem.\r\n\r\nNunc pellentesque tellus eu dui vehicula gravida. Duis enim nulla, fringilla ac enim vitae, luctus malesuada ex. Maecenas eget dapibus libero, at auctor nulla. Praesent sed elementum enim. Maecenas rutrum ultrices ipsum, nec rutrum ex. Aenean elementum dapibus augue eu gravida. Etiam pretium dapibus metus, sed aliquam magna tristique a. Nullam at pellentesque est, sit amet pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac euismod erat. Nullam ut ante pellentesque, lacinia erat viverra, vehicula tortor. Praesent consequat maximus tortor, eu rutrum libero tempus eu.\r\n\r\nVestibulum placerat interdum convallis. Cras lacinia dolor non molestie rutrum. Fusce sed ante eros. Suspendisse vestibulum dictum sapien eget rutrum. Sed vehicula tincidunt massa eget tincidunt. Vestibulum luctus, sem id fermentum tempus, turpis quam condimentum ligula, et molestie quam metus et risus. Vivamus quis egestas felis, nec cursus metus. Donec vitae maximus massa.\r\n\r\nAliquam sed convallis dui, eu mattis diam. Proin urna sem, porta quis tellus eget, malesuada congue tellus. Vestibulum velit metus, malesuada id orci in, rutrum scelerisque eros. Ut cursus, risus id feugiat ornare, metus purus dictum neque, sed ultricies turpis sapien scelerisque erat. Phasellus sit amet mollis ex, quis condimentum risus. Cras gravida blandit dolor et faucibus. Curabitur nunc purus, blandit quis massa consequat, auctor pretium nibh. Vestibulum porta libero at tempus scelerisque. Vestibulum malesuada diam a arcu auctor consequat. Etiam aliquet eu purus non pulvinar. Vivamus a fermentum eros. Pellentesque vel leo tempus tortor vehicula fermentum. Cras et sagittis erat. In hac habitasse platea dictumst.\r\n\r\nSed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    },
+    {
+        "model": "avirtual.capitulo",
+        "pk": 4,
+        "fields": {
+            "curso": 1,
+            "numero_capitulo": 3,
+            "titulo": "Conclusion Curso 1",
+            "imagen": "",
+            "video": "",
+            "contenido": "Sed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    },
+    {
+        "model": "avirtual.leccion",
+        "pk": 1,
+        "fields": {
+            "curso": 1,
+            "capitulo": 1,
+            "numero_leccion": 1,
+            "titulo": "Primeros Pasos Curso 1",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem.\r\n\r\nNunc pellentesque tellus eu dui vehicula gravida. Duis enim nulla, fringilla ac enim vitae, luctus malesuada ex. Maecenas eget dapibus libero, at auctor nulla. Praesent sed elementum enim. Maecenas rutrum ultrices ipsum, nec rutrum ex. Aenean elementum dapibus augue eu gravida. Etiam pretium dapibus metus, sed aliquam magna tristique a. Nullam at pellentesque est, sit amet pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac euismod erat. Nullam ut ante pellentesque, lacinia erat viverra, vehicula tortor. Praesent consequat maximus tortor, eu rutrum libero tempus eu.\r\n\r\nVestibulum placerat interdum convallis. Cras lacinia dolor non molestie rutrum. Fusce sed ante eros. Suspendisse vestibulum dictum sapien eget rutrum. Sed vehicula tincidunt massa eget tincidunt. Vestibulum luctus, sem id fermentum tempus, turpis quam condimentum ligula, et molestie quam metus et risus. Vivamus quis egestas felis, nec cursus metus. Donec vitae maximus massa.\r\n\r\nAliquam sed convallis dui, eu mattis diam. Proin urna sem, porta quis tellus eget, malesuada congue tellus. Vestibulum velit metus, malesuada id orci in, rutrum scelerisque eros. Ut cursus, risus id feugiat ornare, metus purus dictum neque, sed ultricies turpis sapien scelerisque erat. Phasellus sit amet mollis ex, quis condimentum risus. Cras gravida blandit dolor et faucibus. Curabitur nunc purus, blandit quis massa consequat, auctor pretium nibh. Vestibulum porta libero at tempus scelerisque. Vestibulum malesuada diam a arcu auctor consequat. Etiam aliquet eu purus non pulvinar. Vivamus a fermentum eros. Pellentesque vel leo tempus tortor vehicula fermentum. Cras et sagittis erat. In hac habitasse platea dictumst.\r\n\r\nSed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    },
+    {
+        "model": "avirtual.leccion",
+        "pk": 2,
+        "fields": {
+            "curso": 1,
+            "capitulo": 3,
+            "numero_leccion": 1,
+            "titulo": "Leccion 1 Curso 1",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem.\r\n\r\nNunc pellentesque tellus eu dui vehicula gravida. Duis enim nulla, fringilla ac enim vitae, luctus malesuada ex. Maecenas eget dapibus libero, at auctor nulla. Praesent sed elementum enim. Maecenas rutrum ultrices ipsum, nec rutrum ex. Aenean elementum dapibus augue eu gravida. Etiam pretium dapibus metus, sed aliquam magna tristique a. Nullam at pellentesque est, sit amet pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac euismod erat. Nullam ut ante pellentesque, lacinia erat viverra, vehicula tortor. Praesent consequat maximus tortor, eu rutrum libero tempus eu.\r\n\r\nVestibulum placerat interdum convallis. Cras lacinia dolor non molestie rutrum. Fusce sed ante eros. Suspendisse vestibulum dictum sapien eget rutrum. Sed vehicula tincidunt massa eget tincidunt. Vestibulum luctus, sem id fermentum tempus, turpis quam condimentum ligula, et molestie quam metus et risus. Vivamus quis egestas felis, nec cursus metus. Donec vitae maximus massa.\r\n\r\nAliquam sed convallis dui, eu mattis diam. Proin urna sem, porta quis tellus eget, malesuada congue tellus. Vestibulum velit metus, malesuada id orci in, rutrum scelerisque eros. Ut cursus, risus id feugiat ornare, metus purus dictum neque, sed ultricies turpis sapien scelerisque erat. Phasellus sit amet mollis ex, quis condimentum risus. Cras gravida blandit dolor et faucibus. Curabitur nunc purus, blandit quis massa consequat, auctor pretium nibh. Vestibulum porta libero at tempus scelerisque. Vestibulum malesuada diam a arcu auctor consequat. Etiam aliquet eu purus non pulvinar. Vivamus a fermentum eros. Pellentesque vel leo tempus tortor vehicula fermentum. Cras et sagittis erat. In hac habitasse platea dictumst.\r\n\r\nSed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    },
+    {
+        "model": "avirtual.leccion",
+        "pk": 3,
+        "fields": {
+            "curso": 1,
+            "capitulo": 3,
+            "numero_leccion": 2,
+            "titulo": "Momento esto es un robot",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem.\r\n\r\nNunc pellentesque tellus eu dui vehicula gravida. Duis enim nulla, fringilla ac enim vitae, luctus malesuada ex. Maecenas eget dapibus libero, at auctor nulla. Praesent sed elementum enim. Maecenas rutrum ultrices ipsum, nec rutrum ex. Aenean elementum dapibus augue eu gravida. Etiam pretium dapibus metus, sed aliquam magna tristique a. Nullam at pellentesque est, sit amet pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac euismod erat. Nullam ut ante pellentesque, lacinia erat viverra, vehicula tortor. Praesent consequat maximus tortor, eu rutrum libero tempus eu.\r\n\r\nVestibulum placerat interdum convallis. Cras lacinia dolor non molestie rutrum. Fusce sed ante eros. Suspendisse vestibulum dictum sapien eget rutrum. Sed vehicula tincidunt massa eget tincidunt. Vestibulum luctus, sem id fermentum tempus, turpis quam condimentum ligula, et molestie quam metus et risus. Vivamus quis egestas felis, nec cursus metus. Donec vitae maximus massa.\r\n\r\nAliquam sed convallis dui, eu mattis diam. Proin urna sem, porta quis tellus eget, malesuada congue tellus. Vestibulum velit metus, malesuada id orci in, rutrum scelerisque eros. Ut cursus, risus id feugiat ornare, metus purus dictum neque, sed ultricies turpis sapien scelerisque erat. Phasellus sit amet mollis ex, quis condimentum risus. Cras gravida blandit dolor et faucibus. Curabitur nunc purus, blandit quis massa consequat, auctor pretium nibh. Vestibulum porta libero at tempus scelerisque. Vestibulum malesuada diam a arcu auctor consequat. Etiam aliquet eu purus non pulvinar. Vivamus a fermentum eros. Pellentesque vel leo tempus tortor vehicula fermentum. Cras et sagittis erat. In hac habitasse platea dictumst.\r\n\r\nSed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    },
+    {
+        "model": "avirtual.leccion",
+        "pk": 4,
+        "fields": {
+            "curso": 1,
+            "capitulo": 4,
+            "numero_leccion": 1,
+            "titulo": "Adios",
+            "imagen": "",
+            "video": "",
+            "contenido": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo ipsum mi, quis aliquam felis efficitur sit amet. Ut ornare urna purus, quis maximus erat aliquam ut. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sed egestas neque. Suspendisse nec tincidunt nunc. Suspendisse potenti. Phasellus condimentum sodales turpis egestas scelerisque. Mauris ut lacinia tellus, et posuere tellus. Aliquam ultrices enim nec tristique molestie. Fusce ac suscipit mi. Morbi ipsum velit, ultricies quis tempor vitae, porta eu lorem. Aenean id est quis magna mollis convallis sed quis quam. Donec dapibus sodales lacus. Donec augue massa, tempor et nisl eu, consectetur sollicitudin lorem.\r\n\r\nNunc pellentesque tellus eu dui vehicula gravida. Duis enim nulla, fringilla ac enim vitae, luctus malesuada ex. Maecenas eget dapibus libero, at auctor nulla. Praesent sed elementum enim. Maecenas rutrum ultrices ipsum, nec rutrum ex. Aenean elementum dapibus augue eu gravida. Etiam pretium dapibus metus, sed aliquam magna tristique a. Nullam at pellentesque est, sit amet pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac euismod erat. Nullam ut ante pellentesque, lacinia erat viverra, vehicula tortor. Praesent consequat maximus tortor, eu rutrum libero tempus eu.\r\n\r\nVestibulum placerat interdum convallis. Cras lacinia dolor non molestie rutrum. Fusce sed ante eros. Suspendisse vestibulum dictum sapien eget rutrum. Sed vehicula tincidunt massa eget tincidunt. Vestibulum luctus, sem id fermentum tempus, turpis quam condimentum ligula, et molestie quam metus et risus. Vivamus quis egestas felis, nec cursus metus. Donec vitae maximus massa.\r\n\r\nAliquam sed convallis dui, eu mattis diam. Proin urna sem, porta quis tellus eget, malesuada congue tellus. Vestibulum velit metus, malesuada id orci in, rutrum scelerisque eros. Ut cursus, risus id feugiat ornare, metus purus dictum neque, sed ultricies turpis sapien scelerisque erat. Phasellus sit amet mollis ex, quis condimentum risus. Cras gravida blandit dolor et faucibus. Curabitur nunc purus, blandit quis massa consequat, auctor pretium nibh. Vestibulum porta libero at tempus scelerisque. Vestibulum malesuada diam a arcu auctor consequat. Etiam aliquet eu purus non pulvinar. Vivamus a fermentum eros. Pellentesque vel leo tempus tortor vehicula fermentum. Cras et sagittis erat. In hac habitasse platea dictumst.\r\n\r\nSed consectetur tortor commodo, ultricies sem sed, interdum dolor. Donec ligula lorem, eleifend et tellus eget, elementum feugiat sapien. Fusce suscipit nisl diam, vitae finibus mauris viverra at. Vestibulum malesuada ipsum in mi finibus mollis. Duis dui sem, suscipit eget auctor pretium, tincidunt sit amet augue. Duis facilisis non nisi non eleifend. Aenean in risus quis neque semper vehicula. Fusce pellentesque laoreet nisi, at commodo dui gravida et. Curabitur rutrum sem nec lacinia dignissim. Donec blandit mi turpis, ac placerat nibh mollis vel. In tempor nulla id pretium pharetra. Nam faucibus maximus eros vel volutpat. In interdum cursus feugiat. Quisque volutpat elit justo, sit amet varius ante finibus sit amet."
+        }
+    }
+]
