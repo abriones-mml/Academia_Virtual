@@ -520,6 +520,32 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-05-25T09:44:30.229Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "ayudante4",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-05-25T09:44:43.785Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "7",
+            "object_repr": "ayudante5",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -920,7 +946,7 @@
         "pk": 1,
         "fields": {
             "password": "pbkdf2_sha256$320000$W6Fvl0WY0HucvG9yEPUm4f$tJvqTcYAAut03t8AlmujlbseIVKloUR7Bcswt2i5tVI=",
-            "last_login": "2022-05-25T09:12:56.779Z",
+            "last_login": "2022-05-25T09:43:49.369Z",
             "is_superuser": true,
             "username": "alberto",
             "first_name": "",
@@ -1012,6 +1038,46 @@
         }
     },
     {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$eavxiVtWSyinuDDdQUnPnm$/ALoEO1qVY8+fLNLADGRJy8s6bJbYgl775ZDbWgsa5E=",
+            "last_login": "2022-05-25T09:45:27.421Z",
+            "is_superuser": false,
+            "username": "ayudante4",
+            "first_name": "Ayudante",
+            "last_name": "Cuatro",
+            "email": "ayudante@ay.ay",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T09:42:42Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$CFL07HO8hAwdCFjDWkFygc$D/hog7VxvGqcVyHhgtzqdnrtlhi1MWXynG54AsGNix8=",
+            "last_login": "2022-05-25T09:45:02.287Z",
+            "is_superuser": false,
+            "username": "ayudante5",
+            "first_name": "Ayudante",
+            "last_name": "Cinco",
+            "email": "ayudante5@cinco.kk",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-05-25T09:43:19Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
         "model": "contenttypes.contenttype",
         "pk": 1,
         "fields": {
@@ -1089,14 +1155,6 @@
         "fields": {
             "app_label": "avirtual",
             "model": "leccion"
-        }
-    },
-    {
-        "model": "sessions.session",
-        "pk": "ij8h5zy7ejmbmqfo4kq6stwus2w23zgf",
-        "fields": {
-            "session_data": ".eJxVjMEOgjAQRP-lZ9PQsrRdj975BrLLthY1JaFwMv67kHDQ22Tem3mrgbY1D1uNyzCJuiqjLr8d0_iM5QDyoHKf9TiXdZlYH4o-adX9LPF1O92_g0w172vGRjxCAIwUE_jAJC2ydMk6cIBdkzrP1gh4FEh2jxbQB2iNc25k9fkC3NI3Mg:1ntn4a:W6lxUvFgfggLBsF1uTKvOjI2dC4ClO2KXABOPw3Q3JY",
-            "expire_date": "2022-06-08T09:12:56.875Z"
         }
     },
     {
