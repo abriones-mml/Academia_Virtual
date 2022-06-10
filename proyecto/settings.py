@@ -24,6 +24,7 @@ LOGOUT_REDIRECT_URL = "/"
 # Application definition
 
 INSTALLED_APPS = [
+    'admin_interface',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -32,7 +33,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "avirtual",
     "crispy_forms",
+    'colorfield',
 ]
+
+X_FRAME_OPTIONS='SAMEORIGIN'
 
 CRISPY_TEMPLATE_PACK = "bootstrap4"
 
