@@ -1,0 +1,41 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container w-75 mt-1 shadow">
+    <div class="row">
+      <div class="bg-light text-dark">
+        <h2 class="fw-bold text-center mt-3">Mensajes Enviados</h2>
+        <div class="table-responsive align-middle">
+          <table id="estadistica" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Mensaje</th>
+                <th scope="col">Opciones</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              {% for i in comentarios %}
+              <tr>
+                <td>{{i.mensaje}}</td>
+                <td>
+                    <!-- {% if perms.avirtual.change_curso %} -->
+                    <a href="#" class="btn btn-primary btn-sm">Editar</a>
+                    <!-- {% endif %} -->
+                    
+                    <!-- {% if perms.avirtual.delete_curso %} -->
+                    <a href="#" class="btn btn-danger btn-sm">Eliminar</a>
+                    <!-- {% endif %} -->
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    </div>
+
+{% endblock content %}

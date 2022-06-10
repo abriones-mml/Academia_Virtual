@@ -12,6 +12,7 @@
             <thead>
               <tr>
                 <th scope="col">Título</th>
+                <th scope="col">Tutor(es)</th>
                 <th scope="col">Fecha Publicación</th>
                 <th scope="col">Activo</th>
                 <th scope="col">Opciones</th>
@@ -22,6 +23,12 @@
               {% for i in cursos %}
               <tr>
                 <td>{{i.titulo}}</td>
+                <!-- {% for tutor in curso.autores.all %} {{tutor.nombre}} {{tutor.apellido}}{% endfor %} -->
+                <td>
+                  {% for tutor in i.autores.all %}
+                    {{tutor.nombre}} {{tutor.apellido}}
+                  {% endfor %}
+                </td>
                 <td>{{i.publicado}}</td>
                 <td>{{i.activo}}</td>
                 <td>

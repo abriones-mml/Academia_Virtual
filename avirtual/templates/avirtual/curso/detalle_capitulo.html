@@ -1,0 +1,46 @@
+{% extends 'avirtual/base.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="container bg-light d-flex flex-column flex-md-row">
+    <nav class="navbar navbar-expand-md navbar-light d-flex flex-md-column">
+
+        <!-- <div class="collapse navbar-collapse w-100" id="navbarSupportedContent"> -->
+          <ul class="navbar-nav w-100 d-flex flex-md-column text-center text-md-end">
+            <li>
+              <a class="nav-link active fw-bold" aria-current="page">Curso: {{curso.titulo}}</a>
+            </li>
+            {% for capitulo in curso.capitulo_set.all %}
+            <li>
+              <a class="nav-link" href="{{capitulo.get_absolute_url}}">Capítulo #{{capitulo.numero_capitulo}}: {{capitulo.titulo}}</a>
+            </li>
+            {% for leccion in capitulo.leccion_set.all %}
+            <li>
+              <a class="nav-link" href="{{leccion.get_absolute_url}}">Lección #{{leccion.numero_leccion}}: {{leccion.titulo}}</a>
+            </li>
+            {% endfor %}
+            <hr class="bg-danger border-2 border-top border-danger">
+            {% endfor %}
+          </ul>            
+        <!-- </div> -->
+    </nav>
+    <main class="ps-0 ps-md-5 flex-grow-1">
+        <h2 class= " display-1 text-center fw-bold mt-3">{{capitulo.titulo}}</h2>
+        <h3 class= "text-center fst-italic fw-bold mt-3">"{{capitulo.subtitulo}}"</h3>
+        <p>{{capitulo.contenido}}</p>
+        {% if i.imagen %}
+        <div class="row  justify-content-center">
+            <img src="{{capitulo.imagen.url}}" class="img-fluid mt-3" alt="Logo" style="width:550px;">
+        </div>
+        {% endif %}
+        <!-- 
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="{{ curso.video.url}}" allowfullscreen></iframe>
+          </div>
+-->
+
+      </main>
+
+
+{% endblock content %}

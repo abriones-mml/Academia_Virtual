@@ -25,7 +25,11 @@
     <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
-
+    
+    <!-- JS and CSS for Video Player -->
+    <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/4.12/video.js"></script>
+    <style type="text/css">.vjs-default-skin .vjs-big-play-button { font-size: 2em; }</style>
 
     <!-- aqui iba sweet alert-->
 </head>
@@ -76,8 +80,9 @@
                     @{{user.username}}
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Mis Cursos</a></li>
-                    <li><a class="dropdown-item" href="#">Mensajes</a></li>
+                    <li><a class="dropdown-item" href="{% url "mis_cursos" %}">Mis Cursos</a></li>
+                    <li><a class="dropdown-item" href="{% url "mensaje" %}">Enviar Mensaje</a></li>
+                    <li><a class="dropdown-item" href="{% url "inbox" %}">Mis Mensajes</a></li>
                     <hr class="dropdown-divider">
                     </li>
                     <li><a class="dropdown-item" href="{% url "logout" %}">Cerrar Sesión</a></li>

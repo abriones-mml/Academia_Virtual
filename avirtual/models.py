@@ -1,6 +1,9 @@
 from django.db import models
 from django.db.models.fields.related import ForeignKey, ManyToManyField
 from django.utils import timezone
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
 
 class Tutor(models.Model):
     nombre = models.CharField(max_length=30)
@@ -24,6 +27,10 @@ class Curso(models.Model):
 
     def __str__(self):
         return self.titulo
+    
+    def get_absolute_url(self):
+        return f"/detalle_curso/{self.slug}"
+    
 
 class Capitulo(models.Model):
     curso = ForeignKey(Curso, on_delete=models.CASCADE, blank=True, null=True)
@@ -35,6 +42,9 @@ class Capitulo(models.Model):
 
     def __str__(self):
         return self.titulo
+    
+    def get_absolute_url(self):
+        return f"/detalle_capitulo/{self.curso.slug}/{self.numero_capitulo}"
 
 class Leccion(models.Model):
     curso = models.ForeignKey(Curso, on_delete=models.CASCADE,blank=True, null=True)
@@ -47,3 +57,36 @@ class Leccion(models.Model):
 
     def __str__(self):
         return self.titulo
+    
+    def get_absolute_url(self):
+        return f"/detalle_leccion/{self.capitulo.curso.slug}/{self.capitulo.numero_capitulo}/{self.numero_leccion}"
+    
+class Mensaje(models.Model):
+    nombre = models.CharField(max_length=25)
+    apellido = models.CharField(max_length=25)
+    email = models.EmailField(max_length=25)
+    mensaje = models.TextField()
+    
+    def __str__(self): 
+        return f"{self.nombre} {self.apellido}"
+
+class MisCursos(models.Model):
+    usuario = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
+    curso = ManyToManyField(Curso, null=True)
+    inscripcion = models.DateTimeField(default=timezone.now)
+    
+    class Meta:
+        ordering = ["-inscripcion"]
+    
+    def __str__(self):
+        return self.usuario.email
+    
+    def get_absolute_url(self):
+        return f"/detalle_curso/{self.curso.slug}"
+    
+    
+    """
+    @property
+    def is_active(self):
+        return self.estado == "activo" or self.estado == "inactivo"
+    """

@@ -28,7 +28,9 @@
                     <div class="card-body">
                         <h4 class="card-title">{{i.titulo}}</h4>
                         <h5 class="card-subtitle mb-2 text-muted">{{i.subtitulo}}</h5>
-                        <a href= "{% url "detalle_curso" i.pk %}" class="btn btn-primary">Ir al curso</a>
+                        <!-- <a href= "{% url "detalle_curso" i.pk %}" class="btn btn-primary">Ir al curso</a> -->
+                        
+                        <a href= "{{i.get_absolute_url}}" class="btn btn-primary">Ir al curso</a>
                     </div>
                 </div>            
         </div>
