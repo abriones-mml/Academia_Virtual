@@ -72,7 +72,7 @@ class Mensaje(models.Model):
 
 class MisCursos(models.Model):
     usuario = models.OneToOneField(User, on_delete=models.CASCADE, null=True)
-    curso = ManyToManyField(Curso, null=True)
+    curso = ManyToManyField(Curso)
     inscripcion = models.DateTimeField(default=timezone.now)
     
     class Meta:
